@@ -170,7 +170,3 @@ You can easily extend this project to include:
 - 🏢 Azure AD SSO (Office 365 Login)
 - 🎨 Frontend React/Angular integration
 
-_I can generate any of these if you want._
-
----
-
