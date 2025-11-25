@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #76c8ff, #c7eaff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 40px 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            text-align: center;
+            width: 350px;
+        }
+
+        h2 {
+            color: #0078d7;
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .google {
+            background: #db4437;
+            color: white;
+        }
+
+        .google:hover {
+            background: #b3332a;
+        }
+
+        .facebook {
+            background: #1877f2;
+            color: white;
+        }
+
+        .facebook:hover {
+            background: #0f5ec9;
+        }
+
+        .title-icon {
+            font-size: 45px;
+            color: #0078d7;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-icon">🔐</div>
+        <h2>Login</h2>
+
+        <a href="/google-login">
+            <button class="login-btn google">Login with Google</button>
+        </a>
+
+        <a href="/facebook-login">
+            <button class="login-btn facebook">Login with Facebook</button>
+        </a>
+    </div>
+</body>
+</html>

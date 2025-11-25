@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+.ssoenv/
+.ssoenv/
+.ssoenv/
+ENV/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment files
+*.env
+.env.*
+.envrc
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# GitHub python cache
+*.pyc
+
+# AWS SAM / Lambda build
+.aws-sam/
